@@ -122,6 +122,16 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="uiautomation\NCaretMessage.h" />
+    <ClInclude Include="uiautomation\NCaretTracker.h" />
+    <ClInclude Include="uiautomation\NComplexElem.h" />
+    <ClInclude Include="uiautomation\NElem.h" />
+    <ClInclude Include="uiautomation\NEventProvider.h" />
+    <ClInclude Include="uiautomation\NFocusedElementProvider.h" />
+    <ClInclude Include="uiautomation\NScrollElem.h" />
+    <ClInclude Include="uiautomation\NSimpleElem.h" />
+    <ClInclude Include="uiautomation\NUIAutomation.h" />
+    <ClInclude Include="uiautomation\UISpy.h" />
     <ClInclude Include="webcam\qedit.h" />
     <ClInclude Include="webcam\WebcamGrabber.h" />
   </ItemGroup>
@@ -133,6 +143,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="uiautomation\NCaretTracker.cpp" />
+    <ClCompile Include="uiautomation\NEventProvider.cpp" />
+    <ClCompile Include="uiautomation\NFocusedElementProvider.cpp" />
+    <ClCompile Include="uiautomation\NUIAutomation.cpp" />
+    <ClCompile Include="uiautomation\UISpy.cpp" />
     <ClCompile Include="webcam\WebcamGrabber.cpp" />
   </ItemGroup>
   <ItemGroup>

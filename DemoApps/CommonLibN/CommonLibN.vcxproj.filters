@@ -12,6 +12,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="UIAutomation">
+      <UniqueIdentifier>{14224666-6a1c-4e01-ba4f-6c600a8b1e49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="webcam\qedit.h">
@@ -26,6 +29,36 @@
     <ClInclude Include="Resource.h">
       <Filter>Main Files</Filter>
     </ClInclude>
+    <ClInclude Include="uiautomation\NCaretMessage.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NCaretTracker.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NComplexElem.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NElem.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NEventProvider.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NFocusedElementProvider.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NScrollElem.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NSimpleElem.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\NUIAutomation.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
+    <ClInclude Include="uiautomation\UISpy.h">
+      <Filter>UIAutomation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp">
@@ -36,6 +69,21 @@
     </ClCompile>
     <ClCompile Include="webcam\WebcamGrabber.cpp">
       <Filter>Webcam</Filter>
+    </ClCompile>
+    <ClCompile Include="uiautomation\NCaretTracker.cpp">
+      <Filter>UIAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="uiautomation\NEventProvider.cpp">
+      <Filter>UIAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="uiautomation\NFocusedElementProvider.cpp">
+      <Filter>UIAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="uiautomation\NUIAutomation.cpp">
+      <Filter>UIAutomation</Filter>
+    </ClCompile>
+    <ClCompile Include="uiautomation\UISpy.cpp">
+      <Filter>UIAutomation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
