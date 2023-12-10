@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebcamApp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
